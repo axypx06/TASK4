@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background: #424242;
+    display: flex;
+    font-family: sans-serif;
+}
+.main{
+    margin: auto;
+    width: 500px;
+    max-width: 90%;
+}
+.main .error{
+    color: rgb(146, 3, 3);
+}
+.main form{
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    padding: 20px;
+    background: rgb(12, 11, 11);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+label[for="showPassword"] {
+    color: white;
+  }
+#passwordError{
+    margin-left: 70px;
+    margin-top: 20px;
+}  
+#password
+.main form img{
+    align-self: center;
+    margin-bottom: 1px;
+    margin-left: 10%;
+    height: 100%;
+    max-width: 80%;
+}
+.main form .form{
+    width: 70%;
+    height: 40px;
+    align-items: center;
+    background: white;
+    border-radius: 5px;
+    margin: 10px 0 0 15%;
+    padding: 0 10px;
+}
+.main form .btn{
+    width: 70%;
+    height: 40px;
+    align-items: center;
+    background: white;
+    border-radius: 7px;
+    margin: 20px 0 20px 15%;
+    padding: 0 10px;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    background: #6acf48;
+}
+#forgotPasswordLink{
+    margin-left: 35%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #6e6e6e;
+    text-decoration: underline;
+}

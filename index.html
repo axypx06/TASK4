@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Task4</title>
+        <link rel="stylesheet" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="index.js"></script>
+    </head>
+    <body>
+        <div class="main">
+            <form action="">
+                <div>
+                    <img src="logo.png" alt="SmartServ">
+                </div>
+                <div >
+                    <input type="text" class="form" id="username" placeholder="Username" class="" required>
+                    <p id="usernameError" class="error"></p>
+                </div>
+                <div>
+                    <input type="password" class="form" id="password" placeholder="Password" required>
+                    <p id="passwordError" class="error"></p>
+                </div>
+                  
+                <button type="button" class="btn" value="Login" onclick="validate()">Login</button>
+                
+                <br>
+                <a href="#" id="forgotPasswordLink">Forgot your password?</a>
+                <br>
+                <br>
+            </form>
+        </div>
+    </body>
+</html>
